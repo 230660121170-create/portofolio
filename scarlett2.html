@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Index - shellywidyaputri</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Portfolio Details - Shelly Widyaputri</title>
+  <meta name="description" content="Detail promosi skincare Scarlett, menampilkan serum dan facial wash untuk kulit cerah dan sehat dalam 14 hari.">
+  <meta name="keywords" content="portfolio, skincare, Scarlett, serum, facial wash, Shelly Widyaputri">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.jpg" rel="icon">
@@ -26,69 +26,103 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
- 
 </head>
 
-<body class="index-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
-
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
         <h1 class="sitename">Shelly</h1>
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="resume.html">Resume</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
-          
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
       <div class="header-social-links">
         <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
-
     </div>
   </header>
 
   <main class="main">
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Portfolio Details</h2>
+        <p>Showcasing my promotion of Scarlett Body Care products, featuring body lotion and body serum that help nourish and care for the skin from the outside, keeping it smooth, healthy, and radiant.</p>
+      </div><!-- End Section Title -->
 
-    <!-- Hero Section -->
-    <section id="hero" class="hero section">
-
-      <img src="assets/img/shelly.jpg" alt="" data-aos="fade-in">
-
-      <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
-        <div class="row justify-content-center">
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
           <div class="col-lg-8">
-            <h2>Shelly Widya Putri</h2>
-            <p>I am an influencer who focuses on food, skincare, sports, and fashion content, providing inspiration for a healthy and confident lifestyle.</p>
-            <a href="about.html" class="btn-get-started">About Me</a>
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <blockquote class="tiktok-embed" cite="https://www.tiktok.com/@shellyiselll/video/7313460306322164998?_t=ZS-90s6TFGgQEq&_r=1" data-video-id="7313460306322164998" style="max-width: 605px; min-width: 325px;">
+                    <section>
+                      <a target="_blank" title="@shellyiselll" href="https://www.tiktok.com/@shellyiselll?refer=embed">@shellyiselll</a>
+                    </section>
+                  </blockquote>
+                </div>
+                <!-- Tambahkan slide lain jika ada, misalnya gambar produk -->
+                <!-- <div class="swiper-slide">
+                  <img src="assets/img/scarlett-serum.jpg" alt="Scarlett Serum" style="width:100%; max-width:600px;">
+                </div> -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Bodycare</li> 
+                <li><strong>Client</strong>: Scarlett Whitening</li>
+                <li><strong>Project date</strong>: Desember 2023</li> 
+                <li><strong>Project URL</strong>: <a href="https://vt.tiktok.com/ZSUEfotYy/" target="_blank">View on TikTok</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>Scarlett Skincare Promotion</h2> 
+              <p>A vibrant promotion of <strong>Scarlett Whitening</strong> Highlighting the Scarlett body lotion and body serum that help maintain soft, healthy, and glowing skin. This content showcases the importance of daily body care, combining beauty inspiration and real results to engage viewers in self-care routines.</p>
+            </div>
           </div>
         </div>
       </div>
-
-    </section><!-- /Hero Section -->
-
+    </section><!-- /Portfolio Details Section -->
   </main>
 
   <footer id="footer" class="footer light-background">
-
     <div class="container">
-      <div class="copyright text-center ">
+      <div class="copyright text-center">
         <p>© <span>Copyright</span> <strong class="px-1 sitename">Shelly</strong> <span>All Rights Reserved<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
@@ -97,9 +131,10 @@
         <a href=""><i class="bi bi-instagram"></i></a>
         <a href=""><i class="bi bi-linkedin"></i></a>
       </div>
-      
+      <div class="credits">
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
+      </div>
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
@@ -119,45 +154,10 @@
   <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
-   <!-- Main JS File -->
+  <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
-  <!-- Custom Script -->
-  <script>
-    // Fungsi untuk menghasilkan warna acak
-    function generateRandomColor() {
-      var randomColor = '#' + Math.floor(Math.random() * 16777215).toString(16);
-      return randomColor;
-    }
-
-    // Mengubah warna latar belakang halaman secara acak tanpa menutupi gambar
-    function changeBackgroundColor() {
-      document.body.style.background = generateRandomColor();
-    }
-
-    // Menampilkan pesan sambutan
-    function showWelcomeMessage() {
-      alert("Welcome to my portfolio!\nI’m Shelly Widya Putri — an influencer passionate about food, skincare, fitness, and style. Let’s create inspiration together 🌿✨");
-    }
-
-    // Contoh tambahan fungsi displayProjects dan displayExperience (jika belum ada)
-    function displayProjects() {
-      console.log("Menampilkan daftar proyek...");
-    }
-
-    function displayExperience() {
-      console.log("Menampilkan pengalaman kerja...");
-    }
-
-    // Gabungkan semua fungsi saat halaman selesai dimuat
-    window.addEventListener("load", function () {
-      changeBackgroundColor();
-      showWelcomeMessage();
-      displayProjects();
-      displayExperience();
-    });
-  </script>
-
+  <!-- TikTok Embed Script (dipindahkan ke akhir body) -->
+  <script async src="https://www.tiktok.com/embed.js"></script>
 </body>
 </html>
-

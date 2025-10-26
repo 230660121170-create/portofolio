@@ -4,9 +4,9 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Starter Page - Kelly Bootstrap Template</title>
-  <meta name="description" content="">
-  <meta name="keywords" content="">
+  <title>Portfolio Details - Shelly Widyaputri</title>
+  <meta name="description" content="Detail rekomendasi outfit olahraga nyaman dari brand RNR, menampilkan pakaian aktif yang stylish dan fungsional.">
+  <meta name="keywords" content="portfolio, fashion, outfit olahraga, RNR, nyaman, Shelly Widyaputri">
 
   <!-- Favicons -->
   <link href="assets/img/favicon.jpg" rel="icon">
@@ -26,27 +26,15 @@
 
   <!-- Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
-
-  
-  * Template Name: Kelly
-  * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
-  * Updated: Aug 07 2024 with Bootstrap v5.3.3
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
-<body class="starter-page-page">
+<body class="portfolio-details-page">
 
   <header id="header" class="header d-flex align-items-center light-background sticky-top">
     <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
-
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">Kelly</h1>
+        <h1 class="sitename">Shelly</h1>
       </a>
-
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html">Home</a></li>
@@ -54,46 +42,88 @@
           <li><a href="resume.html">Resume</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="portfolio.html">Portfolio</a></li>
-          
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
-
       <div class="header-social-links">
-        <a href="#"s class="twitter"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" class="twitter"><i class="bi bi-twitter-x"></i></a>
         <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
         <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
         <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
       </div>
-
     </div>
   </header>
 
   <main class="main">
-
-    <!-- Starter Section Section -->
-    <section id="starter-section" class="starter-section section">
-
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Starter Section</h2>
-        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+        <h2>Portfolio Details</h2>
+        <p>Showcasing my recommendation for comfortable sporty outfits from RNR brand, blending style and functionality for an active lifestyle.</p>
       </div><!-- End Section Title -->
 
-      <div class="container" data-aos="fade-up">
-        <p>Use this page as a starter for your own custom pages.</p>
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-4">
+          <div class="col-lg-8">
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper align-items-center">
+                <div class="swiper-slide">
+                  <blockquote class="instagram-media" 
+                              data-instgrm-permalink="https://www.instagram.com/reel/DBDECu5PJjs/?igsh=MWNqN2ZpbDBlbmRoag==" 
+                              data-instgrm-version="14"
+                              style="width:100%; max-width:600px; margin:auto;">
+                  </blockquote>
+                </div>
+                <!-- Tambahkan slide lain jika ada, misalnya gambar outfit -->
+                <!-- <div class="swiper-slide">
+                  <img src="assets/img/rnr-outfit.jpg" alt="RNR Sporty Outfit" style="width:100%; max-width:600px;">
+                </div> -->
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
+              <h3>Project information</h3>
+              <ul>
+                <li><strong>Category</strong>: Fashion & Lifestyle</li> 
+                <li><strong>Client</strong>: RNR</li>
+                <li><strong>Project date</strong>: October 2024</li> 
+                <li><strong>Project URL</strong>: <a href="https://www.instagram.com/reel/DBDECu5PJjs/?igsh=MWNqN2ZpbDBlbmRoag==" target="_blank">View on Instagram</a></li>
+              </ul>
+            </div>
+            <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
+              <h2>RNR Sporty Outfit Recommendation</h2> 
+              <p>A recommendation for comfortable and stylish sporty outfits from <strong>RNR</strong>. This reel showcases activewear that prioritizes comfort and performance, perfect for workouts or daily activities, inspiring a balanced and active lifestyle.</p>
+            </div>
+          </div>
+        </div>
       </div>
-
-    </section><!-- /Starter Section Section -->
-
+    </section><!-- /Portfolio Details Section -->
   </main>
 
   <footer id="footer" class="footer light-background">
-
     <div class="container">
-      <div class="copyright text-center ">
-        <p>© <span>Copyright</span> <strong class="px-1 sitename">Kelly</strong> <span>All Rights Reserved<br></span></p>
+      <div class="copyright text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">Shelly</strong> <span>All Rights Reserved<br></span></p>
       </div>
       <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -102,14 +132,9 @@
         <a href=""><i class="bi bi-linkedin"></i></a>
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you've purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href=“https://themewagon.com>ThemeWagon
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a href="https://themewagon.com">ThemeWagon</a>
       </div>
     </div>
-
   </footer>
 
   <!-- Scroll Top -->
@@ -132,6 +157,7 @@
   <!-- Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <!-- Instagram Embed Script (dipindahkan ke akhir body) -->
+  <script async src="//www.instagram.com/embed.js"></script>
 </body>
-
 </html>
